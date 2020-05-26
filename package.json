@@ -1,0 +1,29 @@
+{
+	"name": "webdavserver",
+	"description": "webDAV test Server",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "cross-env nodemon src/index",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CanMusic/webDAVServer.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/CanMusic/webDAVServer/issues"
+	},
+	"homepage": "https://github.com/CanMusic/webDAVServer#readme",
+	"dependencies": {
+		"lodash": "^4.17.15",
+		"moment": "^2.26.0",
+		"urlencoder": "^0.1.0"
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.2",
+		"nodemon": "^2.0.4"
+	}
+}
